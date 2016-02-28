@@ -1,0 +1,60 @@
+{
+    "textures": {
+        "particle": "deextinction:blocks/securityfence/block_oak_security_fence_wire",
+        "0": "deextinction:blocks/securityfence/block_oak_security_fence_wire"
+    },
+    "elements": [
+        {
+            "name": "wire_0",
+            "from": [ 0.0, 2.0, 7.5 ], 
+            "to": [ 16.0, 3.0, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "east": { "texture": "#0", "uv": [ 1.0, 4.0, 2.0, 5.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 1.0, 16.0, 2.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 4.0, 1.0, 5.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 2.0, 16.0, 3.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 3.0, 16.0, 4.0 ] }
+            }
+        },
+        {
+            "name": "wire_1",
+            "from": [ 0.0, 6.0, 7.5 ], 
+            "to": [ 16.0, 7.0, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 1.0, 16.0, 2.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 4.0, 1.0, 5.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 2.0, 16.0, 3.0 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 4.0, 2.0, 5.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 3.0, 16.0, 4.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "wire_2",
+            "from": [ 0.0, 10.0, 7.5 ], 
+            "to": [ 16.0, 11.0, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 2.0, 16.0, 3.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 4.0, 1.0, 5.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 3.0, 16.0, 4.0 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 4.0, 2.0, 5.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 1.0, 16.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "wire_3",
+            "from": [ 0.0, 14.0, 7.5 ], 
+            "to": [ 16.0, 15.0, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 3.0, 16.0, 4.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 4.0, 1.0, 5.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 4.0, 2.0, 5.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 1.0, 16.0, 2.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 2.0, 16.0, 3.0 ] }
+            }
+        }
+    ]
+}

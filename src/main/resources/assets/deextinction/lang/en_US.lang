@@ -1,0 +1,716 @@
+//Tabs ==================================================
+itemGroup.deextinction.items=DeExtinction Items
+itemGroup.deextinction.blocks=DeExtinction Blocks
+itemGroup.deextinction.eggs=DeExtinction Eggs
+itemGroup.deextinction.drops=DeExtinction Drops
+itemGroup.deextinction.fossils=DeExtinction Fossils
+
+
+
+//Achievements ==================================================
+achievements.deextinction=De-Extinction Mod
+
+achievement.plaster_jacket=Mining for Fossils!
+achievement.plaster_jacket.desc=Mine for fossils just like a paleontologist!
+
+achievement.cleaning_table=Cleaning Time!
+achievement.cleaning_table.desc=Build a cleaning table.
+
+achievement.genetic_research_station=It's Time to Research!
+achievement.genetic_research_station.desc=Build a genetic research table.
+
+
+
+//Blocks ==================================================
+tile.block_genetic_research_station.name=Genetic Research Station
+tile.block_botanical_research_station.name=Botanical Research Station
+tile.block_cleaning_table.name=Cleaning Table
+tile.block_microscope.name=Microscope
+tile.block_stone_fossil_creature.name=Stone Fossil
+tile.block_granite_fossil_creature.name=Granite Fossil
+tile.block_diorite_fossil_creature.name=Diorite Fossil
+tile.block_andesite_fossil_creature.name=Andesite Fossil
+tile.block_sandstone_fossil_creature.name=Sandstone Fossil
+tile.block_stone_fossil_foliage.name=Stone Plant Fossil
+tile.block_granite_fossil_foliage.name=Granite Plant Fossil
+tile.block_diorite_fossil_foliage.name=Diorite Plant Fossil
+tile.block_andesite_fossil_foliage.name=Andesite Plant Fossil
+tile.block_sandstone_fossil_foliage.name=Sandstone Plant Fossil
+tile.block_plaster_jacket.name=Plaster Jacket
+tile.block_gypsum.name=Gypsum Block
+tile.block_gypsum_brick.name=Gypsum Brick
+tile.block_clear_glass.name=Clear Glass
+tile.block_water_purifier.name=Water Purifier
+tile.block_fluid_clear_water.name=Clear Water
+tile.block_low_security_fence_pole.name=Low Security Fence Pole
+tile.block_low_security_fence_wire.name=Low Security Fence Wire
+tile.block_oak_security_fence_pole.name=Oak Security Fence Pole
+tile.block_oak_security_fence_wire.name=Oak Security Fence Wire
+tile.block_birch_security_fence_pole.name=Birch Security Fence Pole
+tile.block_birch_security_fence_wire.name=Birch Security Fence Wire
+tile.block_spruce_security_fence_pole.name=Spruce Security Fence Pole
+tile.block_spruce_security_fence_wire.name=Spruce Security Fence Wire
+tile.block_jungle_security_fence_pole.name=Jungle Security Fence Pole
+tile.block_jungle_security_fence_wire.name=Jungle Security Fence Wire
+tile.block_acacia_security_fence_pole.name=Acacia Security Fence Pole
+tile.block_acacia_security_fence_wire.name=Acacia Security Fence Wire
+tile.block_dark_oak_security_fence_pole.name=Dark Oak Security Fence Pole
+tile.block_dark_oak_security_fence_wire.name=Dark Oak Security Fence Wire
+
+
+
+//Items ==================================================
+item.item_water_thermometer.name=Water Thermometer
+item.item_eggshell.name=Eggshell
+item.item_empty_syringe.name=Empty Syringe
+item.item_blood_filled_syringe.name=Blood-filled Syringe
+item.item_egg_nest_tiny.name=Tiny Egg Nest
+item.item_egg_nest_small.name=Small Egg Nest
+item.item_egg_nest_medium.name=Medium Egg Nest
+item.item_egg_nest_large.name=Large Egg Nest
+item.item_rock_pick.name=Rock Pick
+item.item_bucket_fluid_clear_water.name=Clear Water Bucket
+item.item_gypsum_powder.name=Gypsum Powder
+item.item_plaster_powder.name=Plaster Powder
+item.item_plaster_burlap_strips.name=Plaster Burlap Strips
+item.item_period_finder.name=Period Finder
+
+
+
+//Item Info ==============================================
+item.item_species.invalid.egg.data_request_0=This egg doesn't have an embryo
+item.item_species.invalid.egg.data_request_1=Right click to add one
+item.item_species.invalid.syringe.data_request_0=This syringe doesn't have an embryo
+item.item_species.invalid.syringe.data_request_1=Right click to add one
+item.item_species.invalid.egg=This egg doesn't have an embryo
+item.item_species.invalid.syringe=This syringe doesn't have an embryo
+item.item_species.research_progress=Research Quality
+item.item_species.syringe.embryo_inseminated=Embryo inseminated!
+item.item_species.female=Female
+item.item_species.male=Male
+
+
+
+//Gui ==================================================
+container.cleaning_table.name=Cleaning Table
+container.cleaning_table.cleaning_toggle_button.off=Start Cleaning
+container.cleaning_table.cleaning_toggle_button.on=Stop Cleaning
+
+container.microscope.name=Microscope
+container.microscope.no_data=No sample
+container.microscope.creature_name=Name
+container.microscope.creature_age=Age
+container.microscope.creature_gender=Gender
+container.microscope.creature_status=Status
+container.microscope.creature_texture=Coloration
+container.microscope.analizing=Analizing
+container.microscope.male=Male
+container.microscope.female=Female
+
+container.genetic_research_station.name=Genetic Research Station
+container.genetic_research_station.select_branch=Select a Branch
+container.genetic_research_station.see_creatures=Change Creature
+container.genetic_research_station.return=Return
+container.genetic_research_station.cultivate=Cultivate Embryo
+container.genetic_research_station.cancel_embryo=Cancel Embryo
+container.genetic_research_station.more_creatures=More Creatures
+container.genetic_research_station.previous_creatures=Previous Creatures
+container.genetic_research_station.next_creatures=Next Creatures
+container.genetic_research_station.dna=DNA
+container.genetic_research_station.male=Male
+container.genetic_research_station.female=Female
+container.genetic_research_station.period=Period
+container.genetic_research_station.height=Height
+container.genetic_research_station.length=Length
+container.genetic_research_station.weight=Weight
+container.genetic_research_station.research_toggle_button.off=Start Research
+container.genetic_research_station.research_toggle_button.on=Stop Research
+container.genetic_research_station.start_embryo=Cultivate Embryo
+container.genetic_research_station.missing.egg=Missing Egg
+container.genetic_research_station.missing.syringe=Missing Syringe
+container.genetic_research_station.missing.nutrients=Missing Nutrients
+container.genetic_research_station.theropod.name=Theropods
+container.genetic_research_station.mammals.name=Mammals
+
+container.botanical_research_station.name=Botanical Research Station
+container.botanical_research_station.select_branch=Select a Branch
+container.botanical_research_station.see_foliagess=Change Foliage
+container.botanical_research_station.return=Return
+container.botanical_research_station.cultivate=Cultivate Sapling
+container.botanical_research_station.cancel_sapling=Cancel Sapling
+container.botanical_research_station.more_foliages=More Foliages
+container.botanical_research_station.previous_creatures=Previous Foliages
+container.botanical_research_station.next_foliages=Next Foliages
+container.botanical_research_station.dna=DNA
+container.botanical_research_station.period=Period
+container.botanical_research_station.height=Height
+container.botanical_research_station.length=Length
+container.botanical_research_station.weight=Weight
+container.botanical_research_station.where=Location
+container.botanical_research_station.research_toggle_button.off=Start Research
+container.botanical_research_station.research_toggle_button.on=Stop Research
+container.botanical_research_station.start_sapling=Cultivate Sapling
+container.botanical_research_station.missing.sapling=Missing Sapling
+container.botanical_research_station.missing.seeds=Missing Seeds
+container.botanical_research_station.missing.nutrients=Missing Nutrients
+container.botanical_research_station.bushes.name=Bushes
+container.botanical_research_station.trees.name=Trees
+
+container.egg_nest.warmth.warm=Warm
+container.egg_nest.warmth.slightly_warm=Slightly Warm
+container.egg_nest.warmth.neutral=Neutral
+container.egg_nest.warmth.slightly_cool=Slightly Cool
+container.egg_nest.warmth.cool=Cool
+container.egg_nest.warmth.cold=Cold
+
+
+
+//Periods ==================================================
+period.name=Period
+
+period.cambrian.name=Cambrian
+period.cambrian.start_time=541.0 mya
+period.cambrian.final_time=485.4 mya
+period.cambrian.description=Description
+
+period.ordovician.name=Ordovician
+period.ordovician.start_time=485.4 mya
+period.ordovician.final_time=443.8 mya
+period.ordovician.description=Description
+
+period.silurian.name=Silurian
+period.silurian.start_time=443.8 mya
+period.silurian.final_time=419.2 mya
+period.silurian.description=Description
+
+period.devonian.name=Devonian
+period.devonian.start_time=419.2 mya
+period.devonian.final_time=358.9 mya
+period.devonian.description=Description
+
+period.carboniferous.name=Carboniferous
+period.carboniferous.start_time=358.9 mya
+period.carboniferous.final_time=298.9 mya
+period.carboniferous.description=Description
+
+period.permian.name=Permian
+period.permian.start_time=298.90 mya
+period.permian.final_time=252.17 mya
+period.permian.description=Description
+
+period.triassic.name=Triassic
+period.triassic.start_time=252.17 mya
+period.triassic.final_time=201.30 mya
+period.triassic.description=Description
+
+period.jurassic.name=Jurassic
+period.jurassic.start_time=201.30 mya
+period.jurassic.final_time=145.00 mya
+period.jurassic.description=Description
+
+period.cretaceous.name=Cretaceous
+period.cretaceous.start_time=145.00 mya
+period.cretaceous.final_time=66.00 mya
+period.cretaceous.description=Description
+
+period.paleogene.name=Paleogene
+period.paleogene.start_time=66.00 mya
+period.paleogene.final_time=23.03 mya
+period.paleogene.description=Description
+
+period.neogene.name=Neogene
+period.neogene.start_time=23.03 mya
+period.neogene.final_time=2.58 mya
+period.neogene.description=Description
+
+period.quaternary.name=Quaternary
+period.quaternary.start_time=2.58 mya
+period.quaternary.final_time=today
+period.quaternary.description=Description
+
+
+
+//Entities ==================================================
+entity.info.is_being_ridden=is already being ridden
+entity.info.is_sitting=is sitting at the moment
+entity.info.isnt_adult=is not an adult yet
+entity.info.female=Female
+entity.info.male=Male
+entity.info.child=Child
+entity.info.teen=Teen
+entity.info.adult=Adult
+entity.info.unknown=Unknown
+entity.info.year=year
+entity.info.years=years
+entity.info.month=month
+entity.info.months=months
+entity.info.day=day
+entity.info.days=days
+entity.info.newborn=Newborn
+entity.info.healthy=Healthy
+entity.info.slightly_hurt=Slightly Hurt
+entity.info.hurt=Hurt
+entity.info.severely_hurt=Severely Hurt
+
+entity.egg_nest_tiny.name=Tiny Egg Nest
+entity.egg_nest_small.name=Small Egg Nest
+entity.egg_nest_medium.name=Medium Egg Nest
+entity.egg_nest_large.name=Large Egg Nest
+
+
+//Creatures =================================================
+creature.name=Creature
+
+//Chicken Branch ============================================
+
+entity.chicken.name=Chicken
+entity.chicken.period=From Neogene to Quaternary
+entity.chicken.height=0.4 m
+entity.chicken.length=0.5 m
+entity.chicken.weight=from 1 to 4 kg
+entity.chicken.diet=Omnivores
+item.item_cultivated_chicken_egg.name=Cultivated Chicken Egg
+entity.chicken.male.texture_0=White
+entity.chicken.female.texture_0=White
+
+entity.raphus_cucullatus.name=Dodo
+entity.raphus_cucullatus.period=Quaternary
+entity.raphus_cucullatus.height=About 1.0 meters
+entity.raphus_cucullatus.length=About 1.0 meters
+entity.raphus_cucullatus.weight=From 10.6 to 21.1 kg
+entity.raphus_cucullatus.diet=Omnivores
+item.item_raphus_cucullatus_species_0.name=Fossilized Dodo Feather
+item.item_raphus_cucullatus_egg.name=Dodo Egg
+item.item_raphus_cucullatus_feather.name=Dodo Feather
+item.item_raphus_cucullatus_raw.name=Raw Dodo Wing
+item.item_raphus_cucullatus_cooked.name=Cooked Dodo Wing
+entity.raphus_cucullatus.male.texture_0=Gray Male Dodo
+entity.raphus_cucullatus.female.texture_0=Gray Female Dodo
+entity.raphus_cucullatus.male.texture_1=Brown Male Dodo
+entity.raphus_cucullatus.female.texture_1=Brown Female Dodo
+entity.raphus_cucullatus.male.texture_2=White Male Dodo
+entity.raphus_cucullatus.female.texture_2=White Female Dodo
+
+entity.kelenken_guillermoi.name=Kelenken
+entity.kelenken_guillermoi.period=Neogene
+entity.kelenken_guillermoi.height=From 2.5 to 3 meters
+entity.kelenken_guillermoi.length=About 3.5 meters
+entity.kelenken_guillermoi.weight=From 140 to 230 kg
+entity.kelenken_guillermoi.where=Argentina, South America
+entity.kelenken_guillermoi.diet=Carnivore
+item.item_kelenken_guillermoi_species_0.name=Fossilized Kelenken Feather
+item.item_kelenken_guillermoi_egg.name=Kelenken Egg
+item.item_kelenken_guillermoi_feather.name=Kelenken Feather
+item.item_kelenken_guillermoi_raw.name=Raw Kelenken Meat
+item.item_kelenken_guillermoi_cooked.name=Cooked Kelenken Meat
+entity.kelenken_guillermoi.male.texture_0=Dark blue Kelenken
+entity.kelenken_guillermoi.female.texture_0=Dark blue Kelenken
+entity.kelenken_guillermoi.male.texture_1=Black Kelenken
+entity.kelenken_guillermoi.female.texture_1=Black Kelenken
+entity.kelenken_guillermoi.male.texture_2=White Kelenken
+entity.kelenken_guillermoi.female.texture_2=White Kelenken
+entity.kelenken_guillermoi.male.texture_3=Black and white Kelenken
+entity.kelenken_guillermoi.female.texture_3=Black and white Kelenken
+
+entity.dinornis_novaezealandiae.name=Moa
+entity.dinornis_novaezealandiae.period=Neogene and Quaternary
+entity.dinornis_novaezealandiae.height=From 3.6 to 4 meters
+entity.dinornis_novaezealandiae.length=From 2 to 3 meters
+entity.dinornis_novaezealandiae.weight=About 235 kg
+entity.dinornis_novaezealandiae.where=New Zealand
+entity.dinornis_novaezealandiae.diet=Herbivores
+item.item_dinornis_novaezealandiae_species_0.name=Fossilized Moa Feather
+item.item_dinornis_novaezealandiae_egg.name=Moa Egg
+item.item_dinornis_novaezealandiae_feather.name=Moa Feather
+item.item_dinornis_novaezealandiae_raw.name=Raw Moa Meat
+item.item_dinornis_novaezealandiae_cooked.name=Cooked Moa Meat
+entity.dinornis_novaezealandiae.male.texture_0=Brown F. Torso
+entity.dinornis_novaezealandiae.female.texture_0=Brown F. Torso
+entity.dinornis_novaezealandiae.male.texture_1=Brown F. Body
+entity.dinornis_novaezealandiae.female.texture_1=Brown F. Body
+
+entity.aepyornis_maximus.name=Elephant Bird
+entity.aepyornis_maximus.period=Quaternary
+entity.aepyornis_maximus.height=From 3.0 to 3.5 meters
+entity.aepyornis_maximus.length=From 2 to 2.5 meters
+entity.aepyornis_maximus.weight=About 500 kg
+entity.aepyornis_maximus.where=Madagascar
+entity.aepyornis_maximus.diet=Herbivores
+item.item_aepyornis_maximus_species_0.name=Fossilized Elephant Bird Feather
+item.item_aepyornis_maximus_egg.name=Elephant Bird Egg
+item.item_aepyornis_maximus_feather.name=Elephant Bird Feather
+item.item_aepyornis_maximus_raw.name=Raw Elephant Bird Meat
+item.item_aepyornis_maximus_cooked.name=Cooked Elephant Bird Meat
+entity.aepyornis_maximus.male.texture_0=Black Feathered
+entity.aepyornis_maximus.female.texture_0=Black Feathered
+
+entity.hesperornis_regalis.name=Hesperornis
+entity.hesperornis_regalis.period=Cretaceous
+entity.hesperornis_regalis.height=1.8 meters
+entity.hesperornis_regalis.length=About 0.5 meters
+entity.hesperornis_regalis.weight=About 20 kg
+entity.hesperornis_regalis.where=Canada, Russia, Sweden, USA
+entity.hesperornis_regalis.diet=Piscivore
+item.item_hesperornis_regalis_species_0.name=Hesperornis Leg
+item.item_hesperornis_regalis_egg.name=Hesperornis Egg
+item.item_hesperornis_regalis_feather.name=Fossilized Hesperornis Feather
+item.item_hesperornis_regalis_leg.name=Hesperornis Leg
+entity.hesperornis_regalis.male.texture_0=White Male Hesperornis
+entity.hesperornis_regalis.female.texture_0=White Female Hesperornis
+
+entity.archaeorhynchus_spathula.name=Archaeorhynchus
+entity.archaeorhynchus_spathula.period=Cretaceous
+entity.archaeorhynchus_spathula.height=About 0.3 meters
+entity.archaeorhynchus_spathula.length=About 0.3 meters
+entity.archaeorhynchus_spathula.weight=About 1 kg
+entity.archaeorhynchus_spathula.where=China
+entity.archaeorhynchus_spathula.diet=Herbivore (?)
+item.item_archaeorhynchus_spathula_species_0.name=Fossilized Archaeorhynchus Wing
+item.item_archaeorhynchus_spathula_egg.name=Archaeorhynchus Egg
+item.item_archaeorhynchus_spathula_feather.name=Archaeorhynchus Feather
+item.item_archaeorhynchus_spathula_raw.name=Raw Archaeorhynchus Meat
+item.item_archaeorhynchus_spathula_cooked.name=Cooked Archaeorhynchus Meat
+entity.archaeorhynchus_spathula.male.texture_0=White Male
+entity.archaeorhynchus_spathula.female.texture_0=White Female
+entity.archaeorhynchus_spathula.male.texture_1=Blue Male
+entity.archaeorhynchus_spathula.female.texture_1=Blue Female
+entity.archaeorhynchus_spathula.male.texture_2=Green Male
+entity.archaeorhynchus_spathula.female.texture_2=Green Female
+
+entity.sinovenator_changii.name=Sinovenator
+entity.sinovenator_changii.period=Cretaceous
+entity.sinovenator_changii.height=About 0.7 meters
+entity.sinovenator_changii.length=About 1.2 meters
+entity.sinovenator_changii.weight=About 5 to 8 kg
+entity.sinovenator_changii.where=China, Yixian Formation
+entity.sinovenator_changii.diet=Omnivore
+item.item_sinovenator_changii_species_0.name=Fossilized Sinovenator Feather
+item.item_sinovenator_changii_egg.name=Sinovenator Egg
+item.item_sinovenator_changii_feather.name=Sinovenator Feather
+item.item_sinovenator_changii_raw.name=Raw Sinovenator Meat
+item.item_sinovenator_changii_cooked.name=Cooked Sinovenator Meat
+entity.sinovenator_changii.male.texture_0=Blue Male
+entity.sinovenator_changii.female.texture_0=Brown Female
+
+entity.deinonychus_antirrhopus.name=Deinonychus
+entity.deinonychus_antirrhopus.period=Cretaceous
+entity.deinonychus_antirrhopus.height=About 1.0 meters
+entity.deinonychus_antirrhopus.length=About 3.5 meters
+entity.deinonychus_antirrhopus.weight=About 70 kg
+entity.deinonychus_antirrhopus.where=North America
+entity.deinonychus_antirrhopus.diet=Carnivore
+item.item_deinonychus_antirrhopus_species_0.name=Fossilized Deinonychus Claw
+item.item_deinonychus_antirrhopus_egg.name=Deinonychus Egg
+item.item_deinonychus_antirrhopus_claw.name=Deinonychus Claw
+item.item_deinonychus_antirrhopus_raw.name=Raw Deinonychus Meat
+item.item_deinonychus_antirrhopus_cooked.name=Cooked Deinonychus Meat
+entity.deinonychus_antirrhopus.male.texture_0=Brown Male
+entity.deinonychus_antirrhopus.female.texture_0=Brown Female
+
+entity.utahraptor_ostrommaysorum.name=Utahraptor
+entity.utahraptor_ostrommaysorum.period=Cretaceous
+entity.utahraptor_ostrommaysorum.height=About 2.0 meters
+entity.utahraptor_ostrommaysorum.length=up to 7 meters
+entity.utahraptor_ostrommaysorum.weight=About 500 kg
+entity.utahraptor_ostrommaysorum.where=North America
+entity.utahraptor_ostrommaysorum.diet=Carnivore
+item.item_utahraptor_ostrommaysorum_species_0.name=Fossilized Utahraptor Claw
+item.item_utahraptor_ostrommaysorum_egg.name=Utahraptor Egg
+item.item_utahraptor_ostrommaysorum_claw.name=Utahraptor Claw
+item.item_utahraptor_ostrommaysorum_raw.name=Raw Utahraptor Meat
+item.item_utahraptor_ostrommaysorum_cooked.name=Cooked Utahraptor Meat
+entity.utahraptor_ostrommaysorum.male.texture_0=White Male
+entity.utahraptor_ostrommaysorum.female.texture_0=White Female
+
+entity.mahakala_omnogovae.name=Mahakala
+entity.mahakala_omnogovae.period=Unknown
+entity.mahakala_omnogovae.height=Unknown
+entity.mahakala_omnogovae.length=Unknown
+entity.mahakala_omnogovae.weight=Unknown
+entity.mahakala_omnogovae.where=Unknown
+entity.mahakala_omnogovae.diet=Unknown
+item.item_mahakala_omnogovae_species_0.name=Mahakala
+item.item_mahakala_omnogovae_egg.name=Mahakala Egg
+entity.mahakala_omnogovae.male.texture_0=Male
+entity.mahakala_omnogovae.female.texture_0=Female
+
+entity.zhenyuanlong_suni.name=Zhenyuanlong
+entity.zhenyuanlong_suni.period=Unknown
+entity.zhenyuanlong_suni.height=Unknown
+entity.zhenyuanlong_suni.length=Unknown
+entity.zhenyuanlong_suni.weight=Unknown
+entity.zhenyuanlong_suni.where=Unknown
+entity.zhenyuanlong_suni.diet=Unknown
+item.item_zhenyuanlong_suni_species_0.name=Zhenyuanlong
+item.item_zhenyuanlong_suni_egg.name=Zhenyuanlong Egg
+entity.zhenyuanlong_suni.male.texture_0=Male
+entity.zhenyuanlong_suni.female.texture_0=Female
+
+entity.dromaeosaurus_albertensis.name=Dromaeosaurus
+entity.dromaeosaurus_albertensis.period=Unknown
+entity.dromaeosaurus_albertensis.height=Unknown
+entity.dromaeosaurus_albertensis.length=Unknown
+entity.dromaeosaurus_albertensis.weight=Unknown
+entity.dromaeosaurus_albertensis.where=Unknown
+entity.dromaeosaurus_albertensis.diet=Unknown
+item.item_dromaeosaurus_albertensis_species_0.name=Dromaeosaurus
+item.item_dromaeosaurus_albertensis_egg.name=Dromaeosaurus Egg
+entity.dromaeosaurus_albertensis.male.texture_0=Male
+entity.dromaeosaurus_albertensis.female.texture_0=Female
+
+entity.velociraptor_mongoliensis.name=Velociraptor
+entity.velociraptor_mongoliensis.period=Unknown
+entity.velociraptor_mongoliensis.height=Unknown
+entity.velociraptor_mongoliensis.length=Unknown
+entity.velociraptor_mongoliensis.weight=Unknown
+entity.velociraptor_mongoliensis.where=Unknown
+entity.velociraptor_mongoliensis.diet=Unknown
+item.item_velociraptor_mongoliensis_species_0.name=Velociraptor
+item.item_velociraptor_mongoliensis_egg.name=Velociraptor Egg
+entity.velociraptor_mongoliensis.male.texture_0=Male
+entity.velociraptor_mongoliensis.female.texture_0=Female
+
+entity.troodon_formosus.name=Troodon
+entity.troodon_formosus.period=Unknown
+entity.troodon_formosus.height=Unknown
+entity.troodon_formosus.length=Unknown
+entity.troodon_formosus.weight=Unknown
+entity.troodon_formosus.where=Unknown
+entity.troodon_formosus.diet=Unknown
+item.item_troodon_formosus_species_0.name=Troodon
+item.item_troodon_formosus_egg.name=Troodon Egg
+entity.troodon_formosus.male.texture_0=Male
+entity.troodon_formosus.female.texture_0=Female
+
+entity.citipati_osmolskae.name=Citipati
+entity.citipati_osmolskae.period=Unknown
+entity.citipati_osmolskae.height=Unknown
+entity.citipati_osmolskae.length=Unknown
+entity.citipati_osmolskae.weight=Unknown
+entity.citipati_osmolskae.where=Unknown
+entity.citipati_osmolskae.diet=Unknown
+item.item_citipati_osmolskae_species_0.name=Citipati
+item.item_citipati_osmolskae_egg.name=Citipati Egg
+entity.citipati_osmolskae.male.texture_0=Male
+entity.citipati_osmolskae.female.texture_0=Female
+
+entity.oviraptor_philoceratops.name=Oviraptor
+entity.oviraptor_philoceratops.period=Unknown
+entity.oviraptor_philoceratops.height=Unknown
+entity.oviraptor_philoceratops.length=Unknown
+entity.oviraptor_philoceratops.weight=Unknown
+entity.oviraptor_philoceratops.where=Unknown
+entity.oviraptor_philoceratops.diet=Unknown
+item.item_oviraptor_philoceratops_species_0.name=Oviraptor
+item.item_oviraptor_philoceratops_egg.name=Oviraptor Egg
+entity.oviraptor_philoceratops.male.texture_0=Male
+entity.oviraptor_philoceratops.female.texture_0=Female
+
+entity.dilong_paradoxus.name=Dilong
+entity.dilong_paradoxus.period=Unknown
+entity.dilong_paradoxus.height=Unknown
+entity.dilong_paradoxus.length=Unknown
+entity.dilong_paradoxus.weight=Unknown
+entity.dilong_paradoxus.where=Unknown
+entity.dilong_paradoxus.diet=Unknown
+item.item_dilong_paradoxus_species_0.name=Dilong
+item.item_dilong_paradoxus_egg.name=Dilong Egg
+entity.dilong_paradoxus.male.texture_0=Male
+entity.dilong_paradoxus.female.texture_0=Female
+
+entity.guanlong_wucaii.name=GuanLong
+entity.guanlong_wucaii.period=Unknown
+entity.guanlong_wucaii.height=Unknown
+entity.guanlong_wucaii.length=Unknown
+entity.guanlong_wucaii.weight=Unknown
+entity.guanlong_wucaii.where=Unknown
+entity.guanlong_wucaii.diet=Unknown
+item.item_guanlong_wucaii_species_0.name=GuanLong
+item.item_guanlong_wucaii_egg.name=GuanLong Egg
+entity.guanlong_wucaii.male.texture_0=Male
+entity.guanlong_wucaii.female.texture_0=Female
+
+
+
+//Horse Branch ==============================================
+
+entity.horse.name=Horse
+entity.horse.period=Quaternary
+entity.horse.height=1.6 meters
+entity.horse.length=2.0 meters
+entity.horse.weight=500 kg
+entity.horse.where=Worldwide
+entity.horse.diet=Herbivore
+item.item_horse_syringe.name=Horse Syringe
+entity.horse.male.texture_0=Random
+entity.horse.female.texture_0=Random
+
+entity.equus_quagga_quagga.name=Quagga
+entity.equus_quagga_quagga.period=Quaternary
+entity.equus_quagga_quagga.height=1.8 meters
+entity.equus_quagga_quagga.length=2.0 meters
+entity.equus_quagga_quagga.weight=320 kg
+entity.equus_quagga_quagga.where=South Africa
+entity.equus_quagga_quagga.diet=Herbivore
+item.item_equus_quagga_quagga_species_0.name=Fossilized Quagga Hide
+item.item_equus_quagga_quagga_syringe.name=Quagga Syringe
+item.item_equus_quagga_quagga_hide.name=Quagga Hide
+entity.equus_quagga_quagga.male.texture_0=Brown Male
+entity.equus_quagga_quagga.female.texture_0=Brown Female
+
+
+
+//Foliage =================================================
+foliage.name=Foliage
+
+//Plants ==================================================
+plants.name=Plants
+
+foliage.fern.name=Fern
+tile.fern.period=Quaternary
+tile.fern.height=2.0 meter
+tile.fern.where=Worldwide
+item.item_fern_species_0.name=Fossilized Fern
+tile.fern.variant_0=Fern
+
+foliage.chara.name=Chara
+tile.chara.period=Quaternary
+tile.chara.height=1.0 meter
+tile.chara.where=Worldwide
+item.item_chara_species_0.name=Fossilized Chara
+tile.chara.variant_0=Chara
+tile.block_chara_0.name=Chara
+
+foliage.banksia.name=Banksia
+tile.banksia.period=Paleogene
+tile.banksia.height=1.0 meter
+tile.banksia.where=Worldwide
+item.item_banksia_species_0.name=Fossilized Banksia
+tile.banksia.variant_0=Yellow Banksia
+tile.block_banksia_0.name=Yellow Banksia
+tile.banksia.variant_1=Orange Banksia
+tile.block_banksia_1.name=Orange Banksia
+tile.banksia.variant_2=Red Banksia
+tile.block_banksia_2.name=Red Banksia
+
+
+
+//Trees ===================================================
+trees.name=Trees
+
+foliage.spruce.name=Spruce
+tile.spruce.period=Quaternary
+tile.spruce.height=20.0 meter
+tile.spruce.where=Worldwide
+item.item_spruce_species_0.name=Fossilized Spruce
+tile.spruce.variant_0=Spruce
+
+foliage.spruce.name=Sequoiadendron
+tile.sequoiadendron.period=Neogene
+tile.sequoiadendron.height=30.0 meter
+tile.sequoiadendron.where=Worldwide
+item.item_sequoiadendron_species_0.name=Fossilized Sequoiadendron
+tile.sequoiadendron.variant_0=Gray Sequoiadendron
+tile.block_sequoiadendron_0_sapling.name=Gray Sequoiadendron Sapling
+tile.block_sequoiadendron_0_leaves.name=Gray Sequoiadendron Leaves
+tile.block_sequoiadendron_0_log.name=Gray Sequoiadendron Log
+tile.block_sequoiadendron_0_planks.name=Gray Sequoiadendron Planks
+tile.sequoiadendron.variant_1=Orange Sequoiadendron
+tile.block_sequoiadendron_1_sapling.name=Orange Sequoiadendron Sapling
+tile.block_sequoiadendron_1_leaves.name=Orange Sequoiadendron Leaves
+tile.block_sequoiadendron_1_log.name=Orange Sequoiadendron Log
+tile.block_sequoiadendron_1_planks.name=Orange Sequoiadendron Planks
+tile.sequoiadendron.variant_2=Huge Gray Sequoiadendron
+tile.block_sequoiadendron_2_sapling.name=Huge Gray Sequoiadendron Sapling
+tile.sequoiadendron.variant_3=Huge Orange Sequoiadendron
+tile.block_sequoiadendron_3_sapling.name=Huge Orange Sequoiadendron Sapling
+
+
+
+//Not implemented yet ==============================================
+
+entity.shuvuuia_deserti.name=Shuvuuia (Planned)
+entity.shuvuuia_deserti.period=Unknown
+entity.shuvuuia_deserti.height=Unknown
+entity.shuvuuia_deserti.length=Unknown
+entity.shuvuuia_deserti.weight=Unknown
+entity.shuvuuia_deserti.where=Unknown
+entity.shuvuuia_deserti.diet=Unknown
+item.item_shuvuuia_deserti_species_0.name=Shuvuuia
+item.item_shuvuuia_deserti_egg.name=Shuvuuia Egg
+entity.shuvuuia_deserti.male.texture_0=Male
+entity.shuvuuia_deserti.female.texture_0=Female
+
+entity.nothronychus_mckinleyi.name=Nothronychus (Planned)
+entity.nothronychus_mckinleyi.period=Unknown
+entity.nothronychus_mckinleyi.height=Unknown
+entity.nothronychus_mckinleyi.length=Unknown
+entity.nothronychus_mckinleyi.weight=Unknown
+entity.nothronychus_mckinleyi.where=Unknown
+entity.nothronychus_mckinleyi.diet=Unknown
+item.item_nothronychus_mckinleyi_species_0.name=Nothronychus
+item.item_nothronychus_mckinleyi_egg.name=Nothronychus Egg
+entity.nothronychus_mckinleyi.male.texture_0=Male
+entity.nothronychus_mckinleyi.female.texture_0=Female
+
+entity.therizinosaurus_cheloniformis.name=Therizinosaurus (Planned)
+entity.therizinosaurus_cheloniformis.period=Unknown
+entity.therizinosaurus_cheloniformis.height=Unknown
+entity.therizinosaurus_cheloniformis.length=Unknown
+entity.therizinosaurus_cheloniformis.weight=Unknown
+entity.therizinosaurus_cheloniformis.where=Unknown
+entity.therizinosaurus_cheloniformis.diet=Unknown
+item.item_therizinosaurus_cheloniformis_species_0.name=Therizinosaurus
+item.item_therizinosaurus_cheloniformis_egg.name=Therizinosaurus Egg
+entity.therizinosaurus_cheloniformis.male.texture_0=Male
+entity.therizinosaurus_cheloniformis.female.texture_0=Female
+
+entity.pelecanimimus_polydon.name=Pelecanimimus (Planned)
+entity.pelecanimimus_polydon.period=Unknown
+entity.pelecanimimus_polydon.height=Unknown
+entity.pelecanimimus_polydon.length=Unknown
+entity.pelecanimimus_polydon.weight=Unknown
+entity.pelecanimimus_polydon.where=Unknown
+entity.pelecanimimus_polydon.diet=Unknown
+item.item_pelecanimimus_polydon_species_0.name=Pelecanimimus
+item.item_pelecanimimus_polydon_egg.name=Pelecanimimus Egg
+entity.pelecanimimus_polydon.male.texture_0=Male
+entity.pelecanimimus_polydon.female.texture_0=Female
+
+entity.struthiomimus_altus.name=Struthiomimus (Planned)
+entity.struthiomimus_altus.period=Unknown
+entity.struthiomimus_altus.height=Unknown
+entity.struthiomimus_altus.length=Unknown
+entity.struthiomimus_altus.weight=Unknown
+entity.struthiomimus_altus.where=Unknown
+entity.struthiomimus_altus.diet=Unknown
+item.item_struthiomimus_altus_species_0.name=Struthiomimus
+item.item_struthiomimus_altus_egg.name=Struthiomimus Egg
+entity.struthiomimus_altus.male.texture_0=Male
+entity.struthiomimus_altus.female.texture_0=Female
+
+entity.compsognathus_longipes.name=Compsognathus (Planned)
+entity.compsognathus_longipes.period=Unknown
+entity.compsognathus_longipes.height=Unknown
+entity.compsognathus_longipes.length=Unknown
+entity.compsognathus_longipes.weight=Unknown
+entity.compsognathus_longipes.where=Unknown
+entity.compsognathus_longipes.diet=Unknown
+item.item_compsognathus_longipes_species_0.name=Compsognathus
+item.item_compsognathus_longipes_egg.name=Compsognathus Egg
+entity.compsognathus_longipes.male.texture_0=Male
+entity.compsognathus_longipes.female.texture_0=Female
+
+entity.eotyrannus_lengi.name=Eotyrannus (Planned)
+entity.eotyrannus_lengi.period=Unknown
+entity.eotyrannus_lengi.height=Unknown
+entity.eotyrannus_lengi.length=Unknown
+entity.eotyrannus_lengi.weight=Unknown
+entity.eotyrannus_lengi.where=Unknown
+entity.eotyrannus_lengi.diet=Unknown
+item.item_eotyrannus_lengi_species_0.name=Eotyrannus
+item.item_eotyrannus_lengi_egg.name=Eotyrannus Egg
+entity.eotyrannus_lengi.male.texture_0=Male
+entity.eotyrannus_lengi.female.texture_0=Female
+
+

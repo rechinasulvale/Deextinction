@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "facing=south": { "model": "deextinction:block_botanical_research_station" },
+        "facing=north": { "model": "deextinction:block_botanical_research_station", "y": 180 },
+        "facing=west": { "model": "deextinction:block_botanical_research_station", "y": 90 },
+        "facing=east": { "model": "deextinction:block_botanical_research_station", "y": 270 }
+    }
+}

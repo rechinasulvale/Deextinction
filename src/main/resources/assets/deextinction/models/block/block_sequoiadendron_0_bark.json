@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures": 
+    {
+        "all": "deextinction:blocks/trees/block_sequoiadendron_0_log"
+    }
+}

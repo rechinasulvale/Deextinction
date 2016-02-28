@@ -1,0 +1,9 @@
+{
+    "variants": 
+    {
+        "axis=y":  { "model": "deextinction:block_sequoiadendron_0_log" },
+        "axis=z":   { "model": "deextinction:block_sequoiadendron_0_log_side" },
+        "axis=x":   { "model": "deextinction:block_sequoiadendron_0_log_side", "y": 90 },
+        "axis=none": { "model": "deextinction:block_sequoiadendron_0_bark" }
+    }
+}

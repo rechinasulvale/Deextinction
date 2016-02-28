@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures": 
+    {
+        "end": "deextinction:blocks/trees/block_sequoiadendron_0_log_top",
+        "side": "deextinction:blocks/trees/block_sequoiadendron_0_log"
+    }
+}

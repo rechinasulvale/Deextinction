@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "facing=south": { "model": "deextinction:block_dark_oak_security_fence_wire" },
+        "facing=west": { "model": "deextinction:block_dark_oak_security_fence_wire", "y": 90 },
+        "facing=north": { "model": "deextinction:block_dark_oak_security_fence_wire" },
+        "facing=east": { "model": "deextinction:block_dark_oak_security_fence_wire", "y": 90 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "deextinction:blocks/block_gypsum_brick",
+        "top": "deextinction:blocks/block_gypsum_brick",
+        "side": "deextinction:blocks/block_gypsum_brick"
+    }
+}

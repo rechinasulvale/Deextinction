@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+    "textures": 
+    {
+        "cross": "deextinction:blocks/plants/block_viola_cryana_0"
+    }
+}

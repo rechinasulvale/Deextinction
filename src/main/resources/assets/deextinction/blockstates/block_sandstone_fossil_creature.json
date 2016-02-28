@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "facing=south": { "model": "deextinction:block_sandstone_fossil_creature" },
+        "facing=west": { "model": "deextinction:block_sandstone_fossil_creature", "y": 90 },
+        "facing=north": { "model": "deextinction:block_sandstone_fossil_creature", "y": 180 },
+        "facing=east": { "model": "deextinction:block_sandstone_fossil_creature", "y": 270 }
+    }
+}

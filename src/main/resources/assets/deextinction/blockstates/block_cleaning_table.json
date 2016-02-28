@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "facing=south": { "model": "deextinction:block_cleaning_table" },
+        "facing=west": { "model": "deextinction:block_cleaning_table", "y": 90 },
+        "facing=north": { "model": "deextinction:block_cleaning_table", "y": 180 },
+        "facing=east": { "model": "deextinction:block_cleaning_table", "y": 270 }
+    }
+}

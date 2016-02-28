@@ -1,0 +1,18 @@
+{
+    "parent": "deextinction:block/block_genetic_research_station",
+    "display": 
+    {
+        "thirdperson": 
+        {
+            "rotation": [ 10, 180, 170 ],
+            "translation": [ 0, 1.0, -2.75 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson": 
+        {
+            "rotation": [ 0, -90, 0 ],
+            "translation": [ 0, 6, 2 ],
+            "scale": [ 1.7, 1.7, 1.7 ]
+        }
+    }
+}

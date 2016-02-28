@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "facing=south": { "model": "deextinction:block_stone_fossil_foliage" },
+        "facing=west": { "model": "deextinction:block_stone_fossil_foliage", "y": 90 },
+        "facing=north": { "model": "deextinction:block_stone_fossil_foliage", "y": 180 },
+        "facing=east": { "model": "deextinction:block_stone_fossil_foliage", "y": 270 }
+    }
+}

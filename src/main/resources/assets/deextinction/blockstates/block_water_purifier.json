@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "facing=south": { "model": "deextinction:block_water_purifier" },
+        "facing=north": { "model": "deextinction:block_water_purifier", "y": 180 },
+        "facing=west": { "model": "deextinction:block_water_purifier", "y": 90 },
+        "facing=east": { "model": "deextinction:block_water_purifier", "y": 270 }
+    }
+}
