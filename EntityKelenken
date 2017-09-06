@@ -1,0 +1,12 @@
+package deextinction.minecraft.mod.entities;
+
+import net.minecraft.entity.monster.EntityMob;
+import net.minecraft.world.World;
+
+public class KelenkenEntity extends EntityMob{
+
+	public KelenkenEntity(World worldIn) {
+		super(worldIn);
+		
+	}
+}
