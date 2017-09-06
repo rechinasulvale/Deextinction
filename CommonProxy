@@ -1,0 +1,8 @@
+package deextinction.minecraft.mod.proxy;
+
+public class CommonProxy {
+	
+	public void RegisterRenders() {
+		
+	}
+}
